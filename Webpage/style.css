@@ -1,0 +1,74 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: burlywood;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+.name {
+  color: aliceblue;
+}
+
+.box1 {
+    width: 90%;
+}
+
+.box1 h2 {
+    margin-right: 10px;
+}
+
+.img{
+    width: 96%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.img img {
+    width: 149.79px;
+    height: 236px;
+    margin-top: -220px;
+    box-shadow: 0px 4px 15px 6px rgba(0, 0, 0, 0.329);
+}
+
+.lesson {
+
+}
+
+footer {
+    background-color: burlywood;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+.footer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p a{
+    color: aliceblue;
+}
+.footer p a:hover {
+    color:blue;
+}
+#date{
+    display: flex;
+    justify-content: center;
+}
