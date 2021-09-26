@@ -1,0 +1,35 @@
+body{
+    margin-left: 20px;
+}
+#bigbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:20px;
+    width: 50%;
+       
+}
+
+.firstblock{
+    height: 40%;
+}
+
+.secondblock{
+    height: 50%;
+}
+
+.thirdblock{
+    height: 50%;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .bigbox{
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    
+    }
+  }
