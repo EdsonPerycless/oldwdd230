@@ -1,35 +1,110 @@
-body{
-    margin-left: 20px;
+html {
+    font-family: 'Gemunu Libre', sans-serif;
 }
+body{
+    margin: 0px 80px 0px 80px;
+    background-color: rgb(158, 158, 158);
+}
+
+.header{
+    background-color: rgb(56, 0, 211);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
 #bigbox{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap:20px;
-    width: 50%;
+    grid-column-gap:40px;
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
        
 }
 
-.firstblock{
-    height: 40%;
-}
-
-.secondblock{
-    height: 50%;
-}
-
-.thirdblock{
-    height: 50%;
-
-}
-
-
-
-@media only screen and (max-width: 600px) {
-    .bigbox{
-        grid-template-columns: 1fr 1fr 1fr;
-        width: 100%;
-        max-width: 400px;
-        height: auto;
+.boximage{
     
+    width: 100%;
+    height: 100%;
+    background-color:rgb(5, 58, 172);
+    border-radius: 25px;
+    box-shadow: 2px 1px 1px 2px rgba(128, 128, 128, 0.52);
+
+}
+
+.boximage img{
+    margin-top: -5px;
+    margin-left: 20%;
+    height:70% ;
+    width: 60%;
+    border-radius: 15px;
+    border: 1px solid blue;
+}
+.boximage img{
+    margin-left: 20%;
+    height:70% ;
+    width: 60%;
+    border-radius: 15px;
+    border: 1px solid blue;
+}
+
+h4{
+    margin: 7px 0px 7px 30px;
+    
+}
+
+.contrast{
+    margin-left: 80px;
+}
+
+.proximity{
+    margin-left: 110px;
+    margin-bottom: 40px;
+}
+.ali{
+    margin-top: 45px;
+}
+
+a{
+    color: whitesmoke;
+    
+}
+
+h3{
+    margin-left: 10px;
+    color: whitesmoke;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 7px;
+
+}
+h1{
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 800px) {
+    #bigbox{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .boximage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .boximage img{
+        width: 50%;
+        height: 70%;
     }
   }
