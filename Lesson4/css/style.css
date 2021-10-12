@@ -1,18 +1,16 @@
-:root {
-
-}
-
 header {
-    margin-top: 50px;
+    background-color: #c1b098;
 }
 
 .logo {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     height: 100px;
 }
 
 .logo-subtitle {
+    color: whitesmoke;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +19,7 @@ header {
 }
 
 nav {
-    background-color: black;
+    background-color: #0F88CD;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -29,16 +27,58 @@ nav {
     margin-bottom: 20px;
 }
 
-nav ul {
-    cursor: pointer;
-    font-size: 20px;
+nav a {
     color: white;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
 }
 
-nav ul:hover {
-    color: violet;
+nav a:hover {
+    color: #FEC932;
+}
+nav i {
+    display: none;
+    cursor: pointer;
 }
 
 main {
     margin: 0px 40px 10px 40px;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentbox {
+    background-color: #C1B098;
+    border: dashed 1px #000000;
+    margin-top: 10px;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+}
+
+footer {
+    margin: 0px 40px 0px 40px;
+    background-color: #0F88CD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
+
+@media only screen and (max-width: 750px) {
+    nav a {
+        display: none;
+    }
+
+    nav i {
+        display: block;
+    }
 }
