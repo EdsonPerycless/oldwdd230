@@ -4,14 +4,15 @@ window.onload = function myFunction() {
     document.getElementById("p1").innerHTML = getDate;
 }
 
+// nav bar
+
 let nav = document.getElementById("navbar"),
     mediaButton = document.getElementById("mediaButton");
 
 mediaButton.onclick = function () {
-    
+
     "use strict";
-    
-    mainListDiv.classList.toggle("show_list");
-    mediaButton.classList.toggle("active");
-    
+
+    nav.classList.toggle("hide");
+    mediaButton.classList.toggle("active");   
 };
