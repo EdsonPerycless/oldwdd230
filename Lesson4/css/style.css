@@ -78,6 +78,10 @@ footer p {
         display: none;
     }
 
+    #navbar{
+        display: none;
+    }
+
     nav i {
         display: block;
     }

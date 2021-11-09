@@ -13,6 +13,6 @@ mediaButton.onclick = function () {
 
     "use strict";
 
-    nav.classList.toggle("hide");
+    nav.classList.toggle("showList");
     mediaButton.classList.toggle("active");   
 };
